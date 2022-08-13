@@ -4,6 +4,7 @@ import SharedLayout from './components/SharedLayout';
 import Home from './pages/Home'
 import Podcast from './pages/Podcast'
 import Resources from './pages/Resources'
+import Downloads from './pages/Downloads'
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
           <Route path="/"  element={<SharedLayout/>} >
               <Route index            element={<Home/>} />
               <Route path ='podcast'  element= {<Podcast/>}  />
-              <Route path='resources' element={<Resources/>}  />
-
+              <Route path='resources' element={<Resources/>} / >
+                <Route path='downloads' element={<Downloads />} />
+          
           </Route>
 
 

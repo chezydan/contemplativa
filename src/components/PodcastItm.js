@@ -14,7 +14,8 @@ function PodcastItm({itm}) {
                     return             (
                 <div className='cart--podcast' key={id}>
                    
-                    <h3>{title}</h3>
+                    <h3 className='podcastTitle'>{title}</h3>
+                    <div className='cartDetails'>
                     <a href={link}  target="_blank" > link al episodio <span className='iconspotify'>
                     {<FaSpotify  size={'1.9rem'} /> }  </span></a>
                     <p>{readMore? desc : desc.slice(0,154)+'. . .' }
@@ -22,6 +23,7 @@ function PodcastItm({itm}) {
                     onClick={handleMoreClick }>
                         {readMore? `leer menos` : `ampliar`}</span> </p>
                     <p className='temas'> {temas!=="" && <p>temas: {temas} </p> }   </p>
+                    </div>
                 </div> )
                 
         

@@ -1,0 +1,70 @@
+
+
+const downloads =[{
+    link:    "ToDownload/cuento del yoga vasista.docx",
+    tema: "cuento del yoga vasista",
+    desc:"Se trata de un cuento extraido de un texto clásico que nos puede dar una idea \
+    sobre la naturaleza sobre lo arbitrario de nuestra relacion con la realidad para contactarlo con la interpretación del sufrimiento"}
+    ,
+{  link: "ToDownload/Defusion.docx", 
+tema: "Defusion Cognitiva - exploracion meditativa",
+desc:""},
+{  link: "ToDownload/Defusion.docx", 
+tema: "Defusion Cognitiva - exploracion meditativa",
+desc:""},
+
+{  link: "ToDownload/Dogen aprender.docx", 
+tema: "Sobre el aprender, el 'adentro' y el 'afuera'",
+desc:"de la sabiduria del maestro Dogen"},
+
+{  link: "ToDownload/Meditación caminando.docx", 
+tema: "Meditacion al Caminar - meditacion formal",
+desc:""},
+
+{  link: "ToDownload/Recomendaciones.docx.docx", 
+tema: "Recomendaciones basicas para la meditacion",
+desc:""},
+
+{  link: "ToDownload/Scaneo Corporal.docx", 
+tema: "Scaneo Corporal - meditacion formal",
+desc:""},
+
+{  link: "ToDownload/Scaneo Corporal basico.docx", 
+tema: "Scaneo Corporal basico- meditacion formal",
+desc:"se trata de un mapeo corporal simplificado"},
+
+
+
+]
+
+
+const Downloads=()=>{
+
+return (<>
+    <h2>Recursos para descargar</h2>
+{
+    downloads.map((itm) =>
+    {
+        return(<div className="cart--podcast">
+            <h4 className="podcastTitle">{itm.tema}</h4>
+            <article className="podcastDetails">
+            descargar:<a href={itm.link} download> {itm.tema} </a>
+        <div className="temas">
+            { itm.desc!=="" && itm.desc}  </div>
+            </article>
+            </div>
+        )
+    })
+
+
+}
+
+    <p> en construccion..........</p>
+
+</>
+)
+
+
+}
+
+export default Downloads
