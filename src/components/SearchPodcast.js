@@ -5,7 +5,7 @@ function SearchPodcast({propTargetText, handleSearch}) {
 
 
   return (
-    <nav className='nav-search'>        
+    <div className='nav-search'>        
         <label htmlFor='podcastSearch' className='lblSearch' > temas:</label>
         <input type="text" className='inpSearch'
         id='podcastSearch'
@@ -15,12 +15,12 @@ function SearchPodcast({propTargetText, handleSearch}) {
 
         <div className='spanTheme' id="pensamiento"
         
-        onClick={(e)=>{handleSearch(e.target.id ) } } >pensa-mientos</div>
+        onClick={(e)=>{handleSearch(e.target.id ) } } >pensamientos</div>
         <div className='spanTheme' id="sufrimiento" 
         onClick={(e)=>{handleSearch(e.target.id ) } }>sufrimiento</div>
         <div className='spanTheme'  id="aceptación"
         onClick={(e)=>{handleSearch(e.target.id ) } }>aceptación</div>
-    </nav>
+    </div>
   )
 }
 

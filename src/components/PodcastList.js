@@ -9,11 +9,10 @@ function PodcastList() {
     
 
 
-
 return (    <div>
         <SearchPodcast propTargetText={targetText} 
         handleSearch={setTargetText}/>
-
+        <div className='allPodcasts'>
 
             {episodes.map( (itm)=>{
                 const {desc, temas} = itm;
@@ -24,8 +23,9 @@ return (    <div>
                     </div> )    }  
 
     
+
             )
-            }
+            }  </div>
         </div>  )   }
 
 export default PodcastList

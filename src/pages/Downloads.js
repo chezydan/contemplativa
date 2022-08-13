@@ -1,7 +1,7 @@
-
+import { FaDownload } from 'react-icons/fa'
 
 const downloads =[{
-    link:    "ToDownload/cuento del yoga vasista.docx",
+    link:    "pages/ToDownload/cuento del yoga vasista.docx",
     tema: "cuento del yoga vasista",
     desc:"Se trata de un cuento extraido de un texto clásico que nos puede dar una idea \
     sobre la naturaleza sobre lo arbitrario de nuestra relacion con la realidad para contactarlo con la interpretación del sufrimiento"}
@@ -13,7 +13,7 @@ desc:""},
 tema: "Defusion Cognitiva - exploracion meditativa",
 desc:""},
 
-{  link: "ToDownload/Dogen aprender.docx", 
+{  link: "/ToDownload/Dogen aprender.docx", 
 tema: "Sobre el aprender, el 'adentro' y el 'afuera'",
 desc:"de la sabiduria del maestro Dogen"},
 
@@ -41,14 +41,18 @@ desc:"se trata de un mapeo corporal simplificado"},
 const Downloads=()=>{
 
 return (<>
-    <h2>Recursos para descargar</h2>
+    <h2> <FaDownload size ='1.2em'/>Recursos para descargar    <FaDownload size ='1.2em'/>           </h2>
 {
     downloads.map((itm) =>
     {
         return(<div className="cart--podcast">
             <h4 className="podcastTitle">{itm.tema}</h4>
+            <div>
+        </div>
+
             <article className="podcastDetails">
-            descargar:<a href={itm.link} download> {itm.tema} </a>
+            
+          <a href={itm.link} download>  <FaDownload size ='1em'/>   {itm.tema} </a>
         <div className="temas">
             { itm.desc!=="" && itm.desc}  </div>
             </article>
