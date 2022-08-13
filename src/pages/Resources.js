@@ -4,7 +4,7 @@ const Resources = () => {
       <section className='section'>
         <h2> Recursos</h2>
         <ul>
-        <li>Libros</li>
+        <li><Link  to="/books" >   Libros</Link></li>
         <li   ><Link to="/downloads" >Material para descargar</Link> </li>
         <li>podcasts</li>
         <li>ideas</li>

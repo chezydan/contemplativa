@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Podcast from './pages/Podcast'
 import Resources from './pages/Resources'
 import Downloads from './pages/Downloads'
+import Books from './pages/Books';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
               <Route path ='podcast'  element= {<Podcast/>}  />
               <Route path='resources' element={<Resources/>} / >
                 <Route path='downloads' element={<Downloads />} />
+                <Route path='books' element={<Books />} />
           
           </Route>
 

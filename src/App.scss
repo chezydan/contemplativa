@@ -152,9 +152,32 @@ body{
  .podcastTitle{
     padding:0.8em;
     background-color: #66AA77;
-    border: solid, 6px;
-    border-color: black;
+   // border: solid, 6px;
+   // border-color: black;
  }
  .allPodcasts{
   margin-left:zem;
+ }
+
+
+ .books-container{
+  margin-left:1.5em;
+ display: grid;
+ gap:1.8em;
+ grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+ }
+
+ .book{
+ 
+  background-color: #779944;
+  border-radius: 4%;
+  padding:0.5em;
+  
+ }
+ .book a{
+    color :green
+ }
+ .book .temas{
+  color : darkgreen;
  }

@@ -20,6 +20,8 @@ function SearchPodcast({propTargetText, handleSearch}) {
         onClick={(e)=>{handleSearch(e.target.id ) } }>sufrimiento</div>
         <div className='spanTheme'  id="aceptación"
         onClick={(e)=>{handleSearch(e.target.id ) } }>aceptación</div>
+          <div className='spanTheme'  id=" "
+        onClick={(e)=>{handleSearch(e.target.id ) } }>-Todos-</div>
     </div>
   )
 }

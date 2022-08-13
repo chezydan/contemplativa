@@ -1,14 +1,11 @@
 import { FaDownload } from 'react-icons/fa'
 
 const downloads =[{
-    link:    "pages/ToDownload/cuento del yoga vasista.docx",
+    link:    "src/pages/ToDownload/cuento del yoga vasista.docx",
     tema: "cuento del yoga vasista",
     desc:"Se trata de un cuento extraido de un texto clásico que nos puede dar una idea \
     sobre la naturaleza sobre lo arbitrario de nuestra relacion con la realidad para contactarlo con la interpretación del sufrimiento"}
     ,
-{  link: "ToDownload/Defusion.docx", 
-tema: "Defusion Cognitiva - exploracion meditativa",
-desc:""},
 {  link: "ToDownload/Defusion.docx", 
 tema: "Defusion Cognitiva - exploracion meditativa",
 desc:""},
