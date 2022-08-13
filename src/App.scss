@@ -71,14 +71,14 @@ body{
   } */
   
   a {
-    color:#2299FF;
+    color:#00B080;
+    margin-left: 1.2em;
   }
 
-
-  
+ 
   a:hover{
 
-    color:#77FFFF;
+    color:#77BBAA;
     font-size: 1.03em;
     margin-left:0.5em;
   }
@@ -113,4 +113,13 @@ body{
     margin-left:0.5em;
     color: #20B050
 
+ }
+
+ .lblSearch{
+  font-size: 0.8em;
+  margin: 1em;
+ }
+ .inpSearch{
+  width:9.5em;
+  background-color:lightgoldenrodyellow
  }

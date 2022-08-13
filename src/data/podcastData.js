@@ -19,7 +19,7 @@ El porqué de la experiencia humana como  no satisfactoria del  ser humano como 
                 title :"La gran mentira de nuestro cerebro. Así es como funciona una promesa vacía", 
                 link :"https://open.spotify.com/episode/0lQzQT9H8vLeGigPpialkf" ,
                 desc : "Recapitulando el tema del sufrimiento segun los episodios anteriores \
-                Meditando sobre las sensaciones de la respiración y estando conciente de las distracciones que forman parte de nuestra experiencia conciente general.\
+               <p> Meditando sobre las sensaciones de la respiración y estando conciente de las distracciones que forman parte de nuestra experiencia conciente general.\
                 Revelamos en este capítulo la gran mentira de nuestro cerebro, el mecanismo de anticipación que en realidad nos anticipa en momentos previos y nos conduce a llevar la atención y los recursos hacia una situación determinada la cual posiblemente no vivenciemos tan claramente.\
                 Este mecanismo es parte de la explicación de la condición de insatisfacción en la que esta inmersa la experiencia humana.\
                 Al final describiremos que se puede hacer para poder liberarse de la tiranía de este mecanismo."  ,
