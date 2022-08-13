@@ -1,11 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 2.2;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+body{
+  font-family:  "Poppins", sans-serif;;
+  background-color: white;
+}
+
 .App {
     text-align: center;
   }
   
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
+ 
   
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
@@ -14,7 +26,7 @@
   }
   
   .App-header {
-    background-color: #282c34;
+    background-color: blue;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -25,7 +37,7 @@
   }
   
   .App-link {
-    color: #61dafb;
+    color:black
   }
   
   @keyframes App-logo-spin {
@@ -37,7 +49,7 @@
     }
   }
   body{
-    background-color: palegoldenrod
+    background-color: #99E322
   }
   
   .superTitle{
@@ -46,24 +58,29 @@
   }
   
   nav{
-    background-color: darkblue;
+    background-color: #22FF88;
     position: fixed;
     top: 0px;
     width: 100%;
     color:white;
     align-items: center;
   }
-  h1,h3 {
+ /* h1,h3 {
     background-color:darkgreen;
     color: whitesmoke
-  }
+  } */
   
   a {
-    color :cyan;
+    color:#2299FF;
   }
+
+
+  
   a:hover{
-    transform: translateY(-2px);
-    color:aqua;
+
+    color:#77FFFF;
+    font-size: 1.03em;
+    margin-left:0.5em;
   }
 
   .iconspotify{
@@ -71,3 +88,29 @@
     color : olive;
       size: 20px;
   }
+
+  .temas{
+    font-size:0.8em;
+    color:#54b42e;
+  }
+
+ .cart--podcast{
+  color: palegreen;
+  background-color:#227758;
+  padding:0.8em;
+  margin:15px;
+  margin-bottom: 50px;
+  border-radius: 2%;
+ }
+
+ .readmore{
+    font-size: 0.8em;
+    font-style: oblique;
+    margin-bottom: 0.5em;
+ }
+ .readmore:hover{
+  font-size: 0.85em;
+    margin-left:0.5em;
+    color: #20B050
+
+ }
