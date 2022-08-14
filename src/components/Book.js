@@ -1,24 +1,29 @@
+import React ,{ useState } from 'react'
+import { FaLink, FaBook } from 'react-icons/fa'
 
-
-import React from 'react'
-
-function Book({allBooks}) {
-  return (
-    <div className='books-container'>
-    {allBooks.map( (itm)=>{
-        const {id,title, author,desc,url,img,lang,temas} = itm;
-        return (<div className='book' >
-                <h3>{title}</h3>
+function Book({itm}) {
+ const [ showMore, setShowMore] = useState(false);
+  const {id,title, author,desc,url,img,lang,temas} = itm;
+  
+       
+       return (
+<div className='book' key= {id} >
+                <h3>{title} <FaBook /></h3>
                 <p>{author}</p>
-                {url!==""&& <a href={url} target='blank'> info</a>  }
-                {desc!=="" && <p className='temas'>{desc }</p>}
-        </div>)           
+                {url!==""&& <a href={url} target='blank'><FaLink /> info</a>  }
+                
+                {desc!=="" && <p className='temas'>{showMore? desc 
+                :desc.slice(0,80)+'. . .' } 
+                <span className='readmore'
+                onClick={ ()=>setShowMore(!showMore)}>{showMore ? 'leer menos':'ampliar' }
+                </span>   </p>}
+        </div>
 
-    } ) }
-    </div>
-  )
+       )           
 
+    }
+  
+  
 
-}
 
 export default Book

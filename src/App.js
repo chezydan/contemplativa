@@ -6,6 +6,7 @@ import Podcast from './pages/Podcast'
 import Resources from './pages/Resources'
 import Downloads from './pages/Downloads'
 import Books from './pages/Books';
+import Timer from './pages/Timer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route path='resources' element={<Resources/>} / >
                 <Route path='downloads' element={<Downloads />} />
                 <Route path='books' element={<Books />} />
+                <Route path='timer' element={<Timer />} />
           
           </Route>
 

@@ -83,8 +83,31 @@ El porqué de la experiencia humana como  no satisfactoria del  ser humano como 
                      Expandiremos también acerca de las carácterísticas de la meditación en las sensaciones de la respiración en general.\
                      Se incluyen dos sesiones de prácticas incluyendo una del método en cuestión."  ,
                       temas: "práctica método" },
-              
+     { id :12, 
+                        title :"Explicando y describiendo la imperante dinámica del parloteo mental", 
+                        link :"https://open.spotify.com/episode/4lB1d2VQVVoDDzJvvjdDIl" ,
+                        desc : "En el presente episodio habrá una reseña de las principales ideas sobre los pensamientos automáticos que se describieron en episodios anteriores.\
+                        Una breve práctica de meditación sobre las sensaciones de la respiración en la zona delimitada del triángulo. \
+                        A continuación se explicará el mecanismo por el cual los pensamientos automáticos funcionan y porqué tienen tanto poder y se nos imponen con tanta fuerza.\
+                        'Malas y buenas noticias'...  sobre la inercia de estos pensamientos y cuál es el camino hacia la transformación."  ,
+                        temas: "práctica pensamientos" },
 
+     { id :13, 
+                          title :"Nombrar los pensamientos, sensaciones y sonidos que circundan el objeto de meditación", 
+                          link :"https://open.spotify.com/episode/0U2GeF7F2uEeYDlJcLy4wk" ,
+                          desc : "Nombrar o rotularlos pensamientos es un método conocido para consolidar la actividad meditativa.\
+                          Especialmente en el trato de la observación de pensamientos, o de notarlos, sea que querramos redirigir la atención hacia un estímulo en el cual nos concentramos, o que la consigna sea observar simplemente los objetos de la mente sin selección.\
+                          El episodio desarrolla el transfondo de como aplicar e integrar esta ayuda para  la meditación en la práctica."  ,
+                           temas: "método práctica pesamientos" },
+              
+      { id :14, 
+        title:"Las temáticas (automáticas) de los pensamientos automáticos",
+              link :"https://open.spotify.com/episode/1ht8xTTRmkYUTqdkRd3jod" ,
+      desc : "En el presente episodio se revisarán las diferentes características de los pensamientos automáticos  vistas hasta ahora y los modos de abordaje en la meditación.\
+       Cómo tratarlos, cómo considerarlos. Se hará una práctica de conciencia de la respiración en la zona delimitada del 'triángulo'. \                                          \
+         Los temas de los cuales se ocupan los pensamientos automáticos van desde la nostalgia de un pasado irrecuperable hasta fantasía futura prometedora pasando por la posibilidad de una realidad alternativa, ocurrencias sobre nuestra autoimagen y los pensamientos y sentimientos de nuestro lugar en el grupo social.\
+   En el episodio conóceremos sus contenidos para entenderlos, mientras que lo que hacemos en la meditación es contemplarlos no por sus contenidos si no por su sustrato material. "  ,
+                             temas: "pensamientos" },
 
 ]
 

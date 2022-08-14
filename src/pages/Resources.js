@@ -1,16 +1,17 @@
 import {Link} from 'react-router-dom'
+import {FaBook , FaHourglass, FaDownload} from 'react-icons/fa'
 const Resources = () => {
     return (
       <section className='section'>
-        <h2> Recursos</h2>
-        <ul>
-        <li><Link  to="/books" >   Libros</Link></li>
-        <li   ><Link to="/downloads" >Material para descargar</Link> </li>
-        <li>podcasts</li>
-        <li>ideas</li>
-        <li>otras     ideas en construccion</li>
+        <h3 className='title'> Recursos</h3>
+        <p>
+        <Link  to="/books" >  <FaBook /> Libros</Link>  </p><p>
+       <Link to="/downloads" ><FaDownload /> Material para descargar</Link>  </p><p>
+       <Link to='/timer' > {<FaHourglass/>}Cronómetro para Meditación </Link> </p>
+       
+       <p> ideas</p>
+        <p>otras ideas  </p>
 
-        </ul>
       
       </section>
     );

@@ -19,7 +19,8 @@ return (    <div>
                 const text = desc + temas
                 return(
                     <div>
-                        {text.toLowerCase().includes(targetText.toLowerCase())&& <PodcastItm itm={itm} /> }
+                        {text.toLowerCase().includes(targetText.toLowerCase())
+                        && <PodcastItm itm={itm} /> }
                     </div> )    }  
 
     
