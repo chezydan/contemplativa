@@ -1,13 +1,27 @@
 
 
-<div className='book' key= {id} >
-                <h3>{title}</h3>
-                <p>{author}</p>
-                {url!==""&& <a href={url} target='blank'><FaLink /> info</a>  }
-                
-                {desc!=="" && <p className='temas'>{showMore? desc 
-                :desc.slice(0,80)+'. . .' } 
-                <span className='readmore'
-                onClick={ ()=>setShowMore(!showMore)}>{showMore ? 'leer menos':'ampliar' }
-                </span>   </p>}
-        </div>
+        useEffect(() => {
+                let interval;
+                if (running) {
+        
+                  interval = setInterval(() => {
+                    setCount((prevCount) => parseInt(prevCount )- 1);
+                    if(count <= 0){
+                        clearInterval(interval);
+                        beep();
+                        setRunning(false)  }
+                    
+                    
+                  }, 1000);
+                  
+                } else if (!running) {
+                  clearInterval(interval);
+                }
+                return () => clearInterval(interval);
+              }, [running]);
+           
+            
+              {count < 60? count : Math.floor(count/60 )}
+
+
+              /*   {()=>{setRunning(!running)}}   

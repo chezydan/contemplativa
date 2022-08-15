@@ -39,6 +39,9 @@ const Downloads=()=>{
 
 return (<>
     <h2> <FaDownload size ='1.2em'/>Recursos para descargar    <FaDownload size ='1.2em'/>           </h2>
+    <p> Nota: Si hay dificultades en bajar el link, se puede bajar por medio de click derecho.
+        sigo trabajando con esta plataforma para dar un acceso más facilitador.  :)
+    </p>
 {
     downloads.map((itm) =>
     {

@@ -60,7 +60,27 @@ export const books=[
                             con exposición del método de la meditación para un meditador que sostiene que la \
                              iluminación es alcanzable" ,
                              temas: "meditacion" ,
-                            lang: "inglés"},           
+                            lang: "inglés"},    
+          { id :7, 
+                                title :"Autocontrol- El instinto de la fuerza de voluntad", 
+                                author:"Kelly McGonigal",
+                                url :"https://www.amazon.com/Autocontrol-Crecimiento-personal-Spanish-McGonigal-ebook/dp/B01B4RB4Z2" ,
+                                img:'',
+                                desc : "Como resultado de un programa para tratar conciente y sistemáticamente el tema de la fuerza de voluntad\
+                                la autora describe y explica como funciona nuestra voluntad, incluyendo e integrando, \
+                                instrucciones prácticas para la transformación personal"  ,
+                                 temas: "stress neurodinámica" ,
+                                lang: "castellano, trad de 'The Willpower Instinct' "},       
+               { id :8, 
+                                    title :"Más allá del mindfulness: Una guía introductoria a los estados más profundos de la meditación", 
+                                    author:"Bhante Henepola Gunaratana",
+                                    url :"https://www.amazon.com/M%C3%A1s-all%C3%A1-del-mindfulness-introductoria/dp/8499884377",
+                                    img:"",
+                                    desc : "Como continuación y extención del anterior 'Libro de mindfulness' el texto   \
+                                    profundiza el tema  ayudando a los meditadores, acompañándonos a conocer las ideas de la \
+                                    tradición meditativa según el budismo y todo lo concerniente a los aspectos metodológicos.  "   ,
+                                   temas: "Mindfulness práctica tradición" ,
+                                    lang: "castellano trad de 'Beyond Mindfulness in Plain English"},       
 ]
 
 

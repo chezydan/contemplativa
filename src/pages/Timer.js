@@ -12,7 +12,7 @@ function Timer() {
     const [running, setRunning] = useState(false);  
 
     const handleChange=(e)=>    {
-        setCount(e.target.value)
+        setCount(e.target.value*60)
        
     }
 
@@ -23,10 +23,13 @@ function Timer() {
 
           interval = setInterval(() => {
             setCount((prevCount) => parseInt(prevCount )- 1);
-            if(count <= 0){
-                clearInterval(interval);
+            if(count <= 1){
+                clearInterval(interval);  
+                             
                 beep();
-                setRunning(false)  }
+                                for(var i = 0; i<5; i++){
+                                   setTimeout(beep(),1500) ;  }
+               setRunning(false)  }
             
             
           }, 1000);
@@ -35,26 +38,43 @@ function Timer() {
           clearInterval(interval);
         }
         return () => clearInterval(interval);
-      }, [running]);
+      }, [running, count]);
    
     
 
 
-  return (
-    <div>
-        <h3> Cronometro para meditación   <FaHourglass/> </h3>
+      const hoverInput="clickear para editar el cronómetro"
+  return (<div>
+    <h3> Cronómetro para meditación   <FaHourglass/> </h3>
+
+
+    <div className='timer-container'>
+      <br></br>
+
+    <form> <label className='lblTimer' htmlFor='inputTimer'> minutos</label>
+    <input type='number'
+    className='input-timer' placeholder='m'
+    
+        onBlur={handleChange} 
+        onClick={handleChange} 
+        onFocus={(e)=>{e.target.value=0}} >
+        </input>  </form>
+   
 
         <div className='container-timer'>
-        <input type='number' 
-        onBlur={handleChange} ></input> <br></br>
-        <button className='btn' onClick={()=>{setRunning(!running)}}></button><br></br>
 
-        <div className='clock' >{count}</div>
+        <button className='btn' onClick={()=>{setRunning(!running)}}>
+          {!running? 'Activar': 'Detener'}</button><br></br>
 
+        <div className='clock' >
+          {count < 60? count :`${Math.floor(count/60)}:${count%60}`}
+          
+            </div>
+         
         </div>
-
+        
     </div>
-
+    </div>
 
     
   )

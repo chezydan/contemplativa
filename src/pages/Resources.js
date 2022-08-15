@@ -7,8 +7,8 @@ const Resources = () => {
         <p>
         <Link  to="/books" >  <FaBook /> Libros</Link>  </p><p>
        <Link to="/downloads" ><FaDownload /> Material para descargar</Link>  </p><p>
-       <Link to='/timer' > {<FaHourglass/>}Cronómetro para Meditación </Link> </p>
-       
+       <Link to='/timer' target='-blank'> {<FaHourglass/>}Cronómetro para Meditación </Link> </p>
+
        <p> ideas</p>
         <p>otras ideas  </p>
 

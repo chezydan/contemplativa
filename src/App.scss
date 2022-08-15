@@ -190,11 +190,8 @@ body{
   font-size:0.8em;
  }
 
- .container-timer{
-  align-items: center;
-  padding:1.2em;
- }
 
+ 
  .btn{
   margin-top:2em;
   margin-left:auto;
@@ -214,4 +211,54 @@ body{
   font-size:3em;
   text-align: center;
   align-items:center;
+  margin-left:auto;
+  margin-right: auto;
+ }
+
+ .container-timer{
+  align-items: center;
+  background-color: #005433;
+  height:250px;
+  width: 600px ;
+ display:flex;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 4%;
+ }
+
+ .input-timer{
+  display: flex;
+  background-color: aqua;
+  margin-left:auto;
+  margin-right:auto;
+  width:2.5em;
+  height:2.5em;
+  text-align: center;
+  font-size: 2.5rem;
+  border-radius: 10%;
+
+ }
+
+ 
+ .input-timer-div{
+ 
+
+  background-color: aqua;
+  margin-left:auto;
+  
+
+ }
+ form{
+  display:block;
+  align-items: center;
+ }
+
+
+ .lblTimer{
+  padding-left:430px;
+  margin: left 100px;
+  margin-right:auto;
+  width:10rem;
+  
+  
  }

@@ -108,6 +108,25 @@ El porqué de la experiencia humana como  no satisfactoria del  ser humano como 
          Los temas de los cuales se ocupan los pensamientos automáticos van desde la nostalgia de un pasado irrecuperable hasta fantasía futura prometedora pasando por la posibilidad de una realidad alternativa, ocurrencias sobre nuestra autoimagen y los pensamientos y sentimientos de nuestro lugar en el grupo social.\
    En el episodio conóceremos sus contenidos para entenderlos, mientras que lo que hacemos en la meditación es contemplarlos no por sus contenidos si no por su sustrato material. "  ,
                              temas: "pensamientos" },
+   { id :15, 
+
+title :"Aceptación o Espejismo: la actitud de aceptar", 
+link :"https://open.spotify.com/episode/2PP5veaIq91DtiXLXfhhWN" ,
+desc : "El lugar de la aceptación en las ideas que se recorrieron hasta ahora. \
+La problemática de dirigirse a la realidad con juicios, evaluaciones, conceptos y toda voluntad de corregir en oposición a la intención pura en la vivencia de lo presente. Firme determinación y aceptación.\
+En el capítulo práctico, una exploración meditativa con transiciones por sensaciones del cuerpo y pensamientos con énfasis en la actitud de sensación para también ser practicada sin guia externa.\
+Actitud de aceptación frente  a las tendencias y forma de funcionamiento de los pensamientos automáticos y reacciones.\
+Aceptación como esfuerzo y postura activa y no mera rendición u omisión de acción.\
+Meditación y vida cotidiana con aceptación."  ,
+ temas: "aceptación realidad autoengaño sufrimiento" },
+
+   { id :16, 
+title :"Notar las etapas de la respiración a través del seguimiento", 
+link :"https://open.spotify.com/episode/1XT8dWSs0Ly6aOhXrrCQKf" ,
+desc : "En un nuevo episodio metodológico con ayudas para apoyar la práctica meditativa: Notar las etapas de la respiración a través del seguimiento. \
+Esta práctica nos reubica y nos ayuda a anclarnos o reanclarnos en el proceso de respiración en cuyas sensaciones estamos atendiendo y en realidad como microcosmos de toda acción a la que queremos obser var en su substrato material, en sus aspectos no relacionados con el contenido "  ,
+ temas: "método práctica " },
+
 
 ]
 
