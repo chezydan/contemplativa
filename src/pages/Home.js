@@ -8,9 +8,9 @@ const Home = () => {
 
     return (
       <section className='section'>
-        <h2
+        <h1 className ='main-title'
         onClick={beep}
-        > Home page de ciencia contemplativa</h2>
+        > La Página Web Contemplativa </h1>
       
       
       </section>

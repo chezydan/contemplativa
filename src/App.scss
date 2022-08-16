@@ -51,7 +51,11 @@ body{
   body{
     background-color: #99E322
   }
-  
+
+    .main-title{
+      align-items :center;
+    }
+
   .superTitle{
     text-align:center;
     color:rosybrown
@@ -262,3 +266,31 @@ body{
   
   
  }
+
+.timerSet{
+
+  margin-left :auto;
+  margin-right:auto;
+    background-color:#11Ae40;
+    border:solid;
+   width: 100px;
+    color:yellowgreen;
+    border-radius: 15%;
+    text-align:  center;
+
+    font-size:1.8em;    
+   }
+ .timerSet:hover{
+  background-color: yellowgreen;
+  color:darkslategrey
+ }
+
+.presets{
+  display:flex;
+  margin-left :auto;
+  margin-right:auto;
+width:400px;
+  align-items:center;
+color:green;
+}
+

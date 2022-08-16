@@ -10,12 +10,22 @@ function Timer() {
     
     const [count, setCount] =useState(Number(6))
     const [running, setRunning] = useState(false);  
+    const [timeVector, setTimeVector] =useState([3,5,12,20 ,30,45]);
 
-    const handleChange=(e)=>    {
+  
+
+const handleChange=(e)=>    {
+
         setCount(e.target.value*60)
        
     }
+const setNewTime = ()=>{
+  let minCount = count /60;
+  //console.log(minCount)
+  let myVector=[3] 
+      
 
+}
     
     useEffect(() => {
         let interval;
@@ -39,11 +49,18 @@ function Timer() {
         }
         return () => clearInterval(interval);
       }, [running, count]);
-   
+
     
+function TimerSet({num}){
+  return(
+    <div className='timerSet'         
+    onClick={()=>{setCount((num *60 )   ) }} >
+      {num}</div>
+  )
+}
+  const hoverInput="clickear para editar el cronómetro"
 
 
-      const hoverInput="clickear para editar el cronómetro"
   return (<div>
     <h3> Cronómetro para meditación   <FaHourglass/> </h3>
 
@@ -53,12 +70,18 @@ function Timer() {
 
     <form> <label className='lblTimer' htmlFor='inputTimer'> minutos</label>
     <input type='number'
-    className='input-timer' placeholder='m'
-    
+    className='input-timer' placeholder='m'    
         onBlur={handleChange} 
         onClick={handleChange} 
-        onFocus={(e)=>{e.target.value=0}} >
-        </input>  </form>
+        onFocus={(e)=>{e.target.value=""}} >
+        </input>  
+       
+       <div className='presets'>
+
+        {timeVector.map( (itm) =>    <TimerSet num={itm}  /> )}
+        
+        </div>
+        </form>
    
 
         <div className='container-timer'>
@@ -67,7 +90,11 @@ function Timer() {
           {!running? 'Activar': 'Detener'}</button><br></br>
 
         <div className='clock' >
-          {count < 60? count :`${Math.floor(count/60)}:${count%60}`}
+              {count < 60 ? 
+               count <10 ?  '0'+count: count  
+               : count%60<10? 
+                   `${Math.floor(count/60)}:0${count%60}`:
+                   `${Math.floor(count/60)}:${count%60}`  } 
           
             </div>
          
