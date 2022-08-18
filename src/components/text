@@ -25,3 +25,16 @@
 
 
               /*   {()=>{setRunning(!running)}}   
+
+
+
+
+
+
+                  
+      <select >
+    {authors.map( (author)=>{
+        return(
+          <option value={author} > {author} </option> )    }//callback
+      ) }
+      </select>

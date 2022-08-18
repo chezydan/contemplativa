@@ -127,6 +127,21 @@ desc : "En un nuevo episodio metodológico con ayudas para apoyar la práctica m
 Esta práctica nos reubica y nos ayuda a anclarnos o reanclarnos en el proceso de respiración en cuyas sensaciones estamos atendiendo y en realidad como microcosmos de toda acción a la que queremos obser var en su substrato material, en sus aspectos no relacionados con el contenido "  ,
  temas: "método práctica " },
 
+ { id :17, 
+  title :"El punto en la linea temporal: el presente de momento a momento", 
+  link :"https://open.spotify.com/episode/5jFBYacBgxWmCdcxGELTpE" ,
+  desc : "Empezando a mostrar cómo se juega el presente en nuestra experiencia.\
+  La dificultad de poder contemplar en el presente ante la constante influencia de los pensamientos apremientes. \
+  Su relación con el sufrimiento   La inmediatez del momento presente y de cómo la práctica meditativa se lleva por sobre todas las cosas de momento  a momento. \
+    "  ,
+   temas: "presente práctica " },
+
+   { id :18, 
+    title :"Del Sindrome de Intolerancia al Presente al Momento Presente", 
+    link :"https://open.spotify.com/episode/6GWz8dCC8TtqcxAu7EvFAP" ,
+    desc : "Entendiendo porqué el presente es un obstaculo. Lo vamos a entender por el conocimiento de como funciona la mente y por nuestra experiencia misma.\    Se nos hace difícil la experiencia de momento a momento parecemos padecer de un Sindrome de Intolerancia al Presente.\\   De cuáles son las llaves para salir de la evitación de la experiencia presente y \
+    cuál es el camino para involucrarse hacia el cambio-"  ,
+     temas: "presente" },
 
 ]
 

@@ -81,7 +81,33 @@ export const books=[
                                     tradición meditativa según el budismo y todo lo concerniente a los aspectos metodológicos.  "   ,
                                    temas: "Mindfulness práctica tradición" ,
                                     lang: "castellano trad de 'Beyond Mindfulness in Plain English"},       
+
+             { id :9, 
+                                   title :"El poder de la presencia", 
+                                       author:"Amy Cuddy",
+                                        url :"https://www.amazon.com/-/es/Amy-Cuddy/dp/8479539534" ,
+                                        img:'',
+              desc : "Si bien no trata se centra en los aspectos meditativos de lo que el presente \
+              implica, es un texto revelador sobre el significado de cómo estar en el tiempo presente en tiempo y postura \
+              transforma la experiencia individual a nivel emocional, cognitivo y conductual"  ,
+                                         temas: "presente postura mindfulness" ,
+                                        lang: "castellano trad de 'Presence' "},
+  
+       { id :10, 
+                 title :"Estrés: el lado bueno", 
+                 author:"Kelly McGonigal",
+                            url :"https://www.amazon.com/Estr%C3%A9s-estr%C3%A9s-puedes-volverte-Spanish/dp/6077359432" ,
+                                img:'',
+                       desc : "La visión del stress cambió de perspectiva inclusive para la autora del libro. \
+                       por medio de clarificación de valores, conciencia del cuerpo y otros recursos se da esta invitación al cambio \
+                       "  ,
+                              temas: "stress mindfulness modelos_mentales" ,
+                          lang: "castellano, trad de 'The Upside of Stress' " },
+                                                                                    
+
+                                        
 ]
+
 
 
 

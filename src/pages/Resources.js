@@ -5,9 +5,10 @@ const Resources = () => {
       <section className='section'>
         <h3 className='title'> Recursos</h3>
         <p>
-        <Link  to="/books" >  <FaBook /> Libros</Link>  </p><p>
-       <Link to="/downloads" ><FaDownload /> Material para descargar</Link>  </p><p>
-       <Link to='/timer' target='-blank'> {<FaHourglass/>}Cronómetro para Meditación </Link> </p>
+        <Link  to="/books" className='link-res'>  <FaBook /> Libros</Link>  </p><p>
+       <Link to="/downloads" className='link-res'><FaDownload /> Material para descargar</Link>  </p><p>
+       <Link to='/timer' className='link-res' target='-blank'> {<FaHourglass/>}Cronómetro para Meditación </Link> 
+       </p>
 
        <p> ideas</p>
         <p>otras ideas  </p>

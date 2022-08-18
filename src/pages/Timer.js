@@ -64,11 +64,10 @@ function TimerSet({num}){
   return (<div>
     <h3> Cronómetro para meditación   <FaHourglass/> </h3>
 
-
     <div className='timer-container'>
-      <br></br>
-
-    <form> <label className='lblTimer' htmlFor='inputTimer'> minutos</label>
+     <br></br>
+    <form className='form-timer'> 
+    <label className='lblTimer' > minutos</label>
     <input type='number'
     className='input-timer' placeholder='m'    
         onBlur={handleChange} 
@@ -77,16 +76,14 @@ function TimerSet({num}){
         </input>  
        
        <div className='presets'>
-
         {timeVector.map( (itm) =>    <TimerSet num={itm}  /> )}
-        
-        </div>
+               </div>
         </form>
    
 
         <div className='container-timer'>
 
-        <button className='btn' onClick={()=>{setRunning(!running)}}>
+        <button className='btn-timer' onClick={()=>{setRunning(!running)}}>
           {!running? 'Activar': 'Detener'}</button><br></br>
 
         <div className='clock' >

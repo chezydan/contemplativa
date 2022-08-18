@@ -8,7 +8,8 @@ function Book({itm}) {
        
        return (
 <div className='book' key= {id} >
-                <h3>{title} <FaBook /></h3>
+                <div className='book-title'>
+                <h3>{title} <FaBook /></h3>   </div>
                 <p>{author}</p>
                 {url!==""&& <a href={url} target='blank'><FaLink /> info</a>  }
                 
