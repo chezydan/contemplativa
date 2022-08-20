@@ -7,6 +7,7 @@ import Resources from './pages/Resources'
 import Downloads from './pages/Downloads'
 import Books from './pages/Books';
 import Timer from './pages/Timer'
+import Quotes from './pages/Quotes'
 
 function App() {
   return (
@@ -18,11 +19,13 @@ function App() {
               <Route index            element={<Home/>} />
               <Route path ='podcast'  element= {<Podcast/>}  />
               <Route path='resources' element={<Resources/>} / >
+            
                 <Route path='downloads' element={<Downloads />} />
                 <Route path='books' element={<Books />} />
                 <Route path='timer' element={<Timer />} />
-          
+           <Route path='quotes' element={<Quotes />} />
           </Route>
+           
 
 
         </Routes>

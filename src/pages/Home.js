@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 
 const Home = () => {
   function beep() {
@@ -10,7 +11,11 @@ const Home = () => {
       <section className='section'>
         <h1 className ='main-title'
         onClick={beep}
-        > La Página Web Contemplativa </h1>
+        > La Página de Contemplativa </h1>
+<h3> nuevo en contemplativa :</h3>
+<p>generador de frases  </p>
+< Link to='/quotes'  > generador aleatorio de frases</Link>
+
       
       
       </section>

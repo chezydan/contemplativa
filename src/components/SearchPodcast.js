@@ -1,4 +1,5 @@
 import React , {useState} from 'react'
+import {FaSearch} from 'react-icons/fa'
 
 function SearchPodcast({propTargetText, handleSearch}) {
 
@@ -7,6 +8,7 @@ function SearchPodcast({propTargetText, handleSearch}) {
   return (
     <div className='nav-search'>        
         <label htmlFor='podcastSearch' className='lblSearch' > temas:</label>
+        <div className='inline' >{<FaSearch /> }</div>
         <input type="text" className='inpSearch'
         id='podcastSearch'
         placeholder='comenzar búsqueda'

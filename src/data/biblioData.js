@@ -1,7 +1,9 @@
+import { FaTachometerAlt } from "react-icons/fa";
+
 export const books=[
   
         
-        { id :2, 
+       { id :2, 
             title :"El cerebro de Sidarta", 
             author: "James Kingsland",
             url :"https://books.apple.com/es/book/el-cerebro-de-siddhartha/id1204728396" ,
@@ -13,7 +15,7 @@ export const books=[
             
             { id :3, 
                 title :"El Libro de Mindfulness", 
-                author: "Bhante Henepola Gunaratana  ",
+                author: "Bhante Henepola Gunaratana",
                 url :"https://www.amazon.es/LIBRO-MINDFULNESS-Bhante-Henepola-Gunaratana-ebook/dp/B00C1C3XSQ/ref=sr_1_1?qid=1660422510&refinements=p_27%3ABhante+Henepola+Gunaratana&s=books&sr=1-1" ,
                 img:'',
                 desc : "El libro del mindfulness es ya el texto más leído, reconocido y recomendado en todo el mundo acerca de la práctica de la meditación. \
@@ -71,7 +73,7 @@ export const books=[
                                 instrucciones prácticas para la transformación personal"  ,
                                  temas: "stress neurodinámica" ,
                                 lang: "castellano, trad de 'The Willpower Instinct' "},       
-               { id :8, 
+      { id :8, 
                                     title :"Más allá del mindfulness: Una guía introductoria a los estados más profundos de la meditación", 
                                     author:"Bhante Henepola Gunaratana",
                                     url :"https://www.amazon.com/M%C3%A1s-all%C3%A1-del-mindfulness-introductoria/dp/8499884377",
@@ -82,7 +84,7 @@ export const books=[
                                    temas: "Mindfulness práctica tradición" ,
                                     lang: "castellano trad de 'Beyond Mindfulness in Plain English"},       
 
-             { id :9, 
+          { id :9, 
                                    title :"El poder de la presencia", 
                                        author:"Amy Cuddy",
                                         url :"https://www.amazon.com/-/es/Amy-Cuddy/dp/8479539534" ,
@@ -104,9 +106,41 @@ export const books=[
                               temas: "stress mindfulness modelos_mentales" ,
                           lang: "castellano, trad de 'The Upside of Stress' " },
                                                                                     
-
-                                        
-]
+    { id :11, 
+                            title :"Cuestión de confianza", 
+                            author:"Russ Harris",
+                            url :"https://www.amazon.es/CUESTI%C3%93N-CONFIANZA-miedo-libertad-Proyecto-ebook/dp/B07N91H3XN/ref=sr_1_2?qid=1660919763&refinements=p_27%3ARuss+Harris&s=books&sr=1-2" ,
+                            img:'',
+           desc : "Russ nos muestra que 'las acciones de confianza vienen primero, y los sentimientos después' este es uno de los principios \
+           sobre los que se basa la Terapia de Aceptación y Compromiso. Un libro que invita a la accion y el esclarecimiento de valores, concientizándonos \
+            de nuestra tendencia a la evitación emocional.    "  ,
+           temas: "Defusión  Mindfulness" ,
+                            lang: "castellano, trad de 'The Confidence Gap'"},
+                            
+ {      id :12, 
+                title :"Una bofetada de realidad", 
+              author:"Russ Harris",
+              url :"https://www.amazon.es/Bofetada-realidad-Psicolog%C3%ADa-Russ-Harris/dp/8491116052/ref=sr_1_7?qid=1660919763&refinements=p_27%3ARuss+Harris&s=books&sr=1-7" ,
+             img:'',
+            desc : "¿Qué pasa cuando la vida no nos sonríe? El autor ayuda a transitar por aquellas situaciones \
+            en que de cara a la realidad, sentimos que las cosas no son como querríamos, con aceptación, valentía, recursos \
+            y sin soluciones facilistas que llevan al autoengaño"  ,
+                             temas: "Conciencia Mindfulness" ,
+                            lang: "castellano, trad. de 'The Reality Slap' "},
+          
+       { id :13, 
+                title :"La conciencia en el cerebro", 
+                          author:"Stanislas Dehaene",
+                                url :"https://www.amazon.es/conciencia-cerebro-Descifrando-nuestros-pensamientos-ebook/dp/B0821PCKCT/ref=sr_1_8?qid=1661015311&refinements=p_27%3AStanislas+Dehaene&s=books&sr=1-8" ,
+                                img:'',
+      desc : "Descifrando el enigma de cómo el cerebro elabora nuestros pensamientos...   \
+             Dehene examina a fondo y sin preconceptos a qué nos referimos cuando hablamos de 'conciencia' \
+                Con un lenguaje claro pero sin perder la rigurosidad nos describe cómo  aparece la \
+                conciencia en nuestra experiencia también desde el punto de vista cerebral  " 
+    ,
+                                 temas: "conciencia  atención neurodinámica" ,
+                                lang: "castellano  trad de 'Consciousness and the Brain' "},                          
+] 
 
 
 

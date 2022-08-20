@@ -1,40 +1,8 @@
 
 
-        useEffect(() => {
-                let interval;
-                if (running) {
-        
-                  interval = setInterval(() => {
-                    setCount((prevCount) => parseInt(prevCount )- 1);
-                    if(count <= 0){
-                        clearInterval(interval);
-                        beep();
-                        setRunning(false)  }
-                    
-                    
-                  }, 1000);
-                  
-                } else if (!running) {
-                  clearInterval(interval);
-                }
-                return () => clearInterval(interval);
-              }, [running]);
-           
-            
-              {count < 60? count : Math.floor(count/60 )}
-
-
-              /*   {()=>{setRunning(!running)}}   
 
 
 
+{quote:'No percibimos según como las cosas son sino según como somos´   ,
+ author:"Anaïs Nin"},]
 
-
-
-                  
-      <select >
-    {authors.map( (author)=>{
-        return(
-          <option value={author} > {author} </option> )    }//callback
-      ) }
-      </select>
