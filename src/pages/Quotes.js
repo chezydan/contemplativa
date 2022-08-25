@@ -17,7 +17,7 @@ function Quotes() {
      
      <button className='btn-quote'
     onClick= {  ()=>setQuote(quotesData[Math.floor(Math.random()*quotesData.length)])  }   >
-    <span>{<FaQuoteLeft />}  ------{<FaQuoteRight />}</span>
+    <span className='span-quotes'>{<FaQuoteLeft />}  ------{<FaQuoteRight />}</span>
       </button>
       <br></br>
       <br></br>

@@ -18,7 +18,7 @@ desc:"de la sabiduria del maestro Dogen"},
 tema: "Meditacion al Caminar - meditacion formal",
 desc:""},
 
-{  link: "ToDownload/Recomendaciones.docx.docx", 
+{  link: "ToDownload/Recomendaciones.docx", 
 tema: "Recomendaciones basicas para la meditacion",
 desc:""},
 
@@ -26,8 +26,8 @@ desc:""},
 tema: "Scaneo Corporal - meditacion formal",
 desc:""},
 
-{  link: "ToDownload/Scaneo Corporal basico.docx", 
-tema: "Scaneo Corporal basico- meditacion formal",
+{  link: "#ToDownload/Scaneo Corporal basico.docx", 
+tema: "Scaneo Corporal basico- meditacion formal TEST #",
 desc:"se trata de un mapeo corporal simplificado"},
 
 
@@ -53,6 +53,7 @@ return (<>
             <article className="podcastDetails">
             
           <a href={itm.link} download>  <FaDownload size ='1em'/>   {itm.tema} </a>
+          <a href={itm.link} download="download" >  <FaDownload size ='1em'/>   {itm.tema} </a>
         <div className="temas">
             { itm.desc!=="" && itm.desc}  </div>
             </article>
