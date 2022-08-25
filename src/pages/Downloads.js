@@ -29,7 +29,8 @@ desc:""},
 {  link: "#ToDownload/Scaneo Corporal basico.docx", 
 tema: "Scaneo Corporal basico- meditacion formal TEST #",
 desc:"se trata de un mapeo corporal simplificado"},
-
+{ link:"https://docs.google.com/document/d/1SRDpyHrD9O3SGXA7hzyRBimjHsNwl4gq2EDwpnc6caE/edit?usp=sharing" ,
+tema:'test from drive' ,desc:"" },
 
 
 ]
@@ -53,7 +54,7 @@ return (<>
             <article className="podcastDetails">
             
           <a href={itm.link} download>  <FaDownload size ='1em'/>   {itm.tema} </a>
-          <a href={itm.link} download="download" >  <FaDownload size ='1em'/>   {itm.tema} </a>
+        
         <div className="temas">
             { itm.desc!=="" && itm.desc}  </div>
             </article>
