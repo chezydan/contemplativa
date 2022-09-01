@@ -1,6 +1,6 @@
 import React ,{useState} from 'react'
 import {quotesData} from '../data/QuotesData'
-import {FaQuoteLeft , FaQuoteRight} from 'react-icons/fa'
+import {FaQuoteLeft , FaQuoteRight,FaBook,FaLightbulb} from 'react-icons/fa'
 
 function Quotes() {
   const [quote , setQuote ] =useState("");
@@ -9,9 +9,14 @@ function Quotes() {
  
  <h2> Generador aleatorio de fases y citas </h2>
 <br></br>
-<p> Al pulsar se puede extraer una frase para pensar y aplicar sobre las temáticas
+
+<p>  <FaLightbulb className='p-fa' /> Al pulsar se puede extraer una frase para pensar y aplicar sobre las temáticas
   del conocimiento contemplativo
-</p>
+</p><br></br>
+<br></br>
+<p>{<FaBook className='p-fa' />}
+frases, parte del contenido citado en los Podcasts en el tema de los fundamentos de los cuales emana la práctica contemplativa y otras frases sabias pertinentes que nos pueden inspirar en el pensamiento y la acción.</p>
+
 <br></br>
 <br></br>
      

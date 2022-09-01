@@ -8,6 +8,7 @@ import Downloads from './pages/Downloads'
 import Books from './pages/Books';
 import Timer from './pages/Timer'
 import Quotes from './pages/Quotes'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                 <Route path='books' element={<Books />} />
                 <Route path='timer' element={<Timer />} />
            <Route path='quotes' element={<Quotes />} />
+           <Route path='contact' element ={<Contact/>}  />
           </Route>
            
 

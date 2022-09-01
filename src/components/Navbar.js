@@ -7,6 +7,7 @@ function Navbar() {
         <Link to ="/" >   Home</Link>
         <Link to ="/podcast" >   podcast</Link>
         <Link to ="/resources" >   recursos</Link>
+        <Link to ="/contact" >   contactar</Link>
 
 < Link to='/quotes'  > generador aleatorio de frases</Link>
     </nav>
