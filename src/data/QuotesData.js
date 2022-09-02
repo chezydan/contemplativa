@@ -4,9 +4,6 @@ export const quotesData=[
 {quote: 'sursd  asdfdf    '
 , author: 'DDDDD'},
 
-{quote: 'AAAAAAssssssdDDDDDDsdfdf    '
-, author: 'DDDDD'},
-
 
 
 {quote:"No percibimos según como las cosas son sino según como somos"  
@@ -39,26 +36,26 @@ Al pensamiento oscuro, a la vergüenza, a la malicia , \n\
   Como un guía del más allá.   \n\ ',
 author: 'Rumi'
 },
-{quote: ' Recuerde el alma dormida,\
-\avive el seso y despierte, contemplando\
-cómo se pasa la vida                \
-,cómo se viene la muerte\
-, tan callando;\
-cuán presto se va el placer;\
-cómo después de acordado\
-da dolor;\
-cómo a nuestro parecer cualquiera tiempo pasado \
-fue mejor.\
-\
-    Recuerde: Recobre la conciencia\
-al despertar.     Que despierten las almas que viven soñando y no son conscientes de la realidad.\
-Cómo el recordar el placer (pasado)\
-da dolor.\
-   Pues si vemos lo presente \
-cómo en un punto se es ido \
-y acabado, \
-si juzgamos sabiamente, \
-daremos lo no venido. \
+{quote: ' Recuerde el alma dormida,\n\
+\avive el seso y despierte, contemplando \n\
+cómo se pasa la vida     \n           \
+,cómo se viene la muerte\n\
+, tan callando;\n\
+cuán presto se va el placer;\n\
+cómo después de acordado\n\
+da dolor;\n\
+cómo a nuestro parecer cualquiera tiempo pasado \n\
+fue mejor.\n\
+\n\
+    Recuerde: Recobre la conciencia\n\
+al despertar.     Que despierten las almas que viven soñando y no son conscientes de la realidad.\n\
+Cómo el recordar el placer (pasado)\n\
+da dolor.\n\
+   Pues si vemos lo presente \n\
+cómo en un punto se es ido \n\
+y acabado, \n\
+si juzgamos sabiamente, \n\
+daremos lo no venido. \n\
 por pasado. ',
 author: 'Jorge Manrique'} ,
 

@@ -5,7 +5,7 @@ import {FaQuoteLeft , FaQuoteRight,FaBook,FaLightbulb} from 'react-icons/fa'
 function Quotes() {
   const [quote , setQuote ] =useState("");
   
- return (<div>
+ return (<div className='quotes-general'>
  
  <h2> Generador aleatorio de fases y citas </h2>
 <br></br>

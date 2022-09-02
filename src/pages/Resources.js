@@ -11,8 +11,7 @@ const Resources = () => {
        <Link to='/quotes' className='link-res' target='-blank'> {<FaPen/>}Frases y Citas </Link> 
        </p>
 
-       <p> ideas</p>
-        <p>otras ideas  </p>
+ 
 
       
       </section>
