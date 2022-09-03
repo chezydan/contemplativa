@@ -9,7 +9,8 @@
 
 
 body{
-  font-family:  "Poppins", sans-serif;;
+  font-family:  "Poppins", sans-serif;
+  //height:100%;
 
 }
 
@@ -55,8 +56,10 @@ body{
   }
 
   .section-home{
-
+height:100%;
     padding :3em;
+    margin-bottom:0;
+    color:whitesmoke
   }
 
   span{
@@ -396,9 +399,12 @@ select{
   display:block;
   margin-left:auto;
   margin-right:auto;
-  font-size:30px;
+  
+  font-size:1.7em;
   padding:0.5rem;
   white-space: pre-line;
+ //font-style:italic;
+  font-family:cursive;
 }
 
 .btn-quote{
@@ -483,17 +489,22 @@ font-style:bold}
 }
 
 .modalContainer {
-  max-width: 600px;
-  width: 100%;
+  //max-width: 600px;
+  width: 90%;
+  height:90%;
   position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+//  top: 90px;  left: 50%;
+  //transform: translate(-50%, -50%);
   display: flex;
   background-color: #228844;
   box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
   border-radius: 8px;
-  color: wheat
+  color: wheat;
+  padding:3.5em;
+  opacity:85%;
+  align-items:center;
+  line-height: 3em;
+
 }
 
 
@@ -550,3 +561,29 @@ font-style:bold}
     width: 100%;
     height: 100vh;  }
   }
+
+
+
+  /* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1661079789124-e149425e8851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=694&q=80");
+  /* Set a specific height */
+  height: 100vh;
+  width:auto;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}

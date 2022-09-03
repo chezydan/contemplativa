@@ -1,32 +1,32 @@
 import { FaDownload } from 'react-icons/fa'
 
 const downloads =[{
-    link:    "cuento del yoga vasista.docx",
+    link:    "https://docs.google.com/document/d/1RXhmYBd_tnnQMpCI7cYa-MeyKfta7-gaqRuAKmhrrDM/edit?usp=sharing",
     tema: "cuento del yoga vasista",
     desc:"Se trata de un cuento extraido de un texto clásico que nos puede dar una idea \
     sobre la naturaleza sobre lo arbitrario de nuestra relacion con la realidad para contactarlo con la interpretación del sufrimiento"}
     ,
-{  link: "Defusion.docx", 
+{  link: "https://docs.google.com/document/d/1T4Ni9xE3sTElMnaSltMW3xrAuHOfQ8DyEvrhhrSUuo4/edit?usp=sharing", 
 tema: "Defusion Cognitiva - exploracion meditativa",
 desc:""},
 
-{  link: "/ToDownload/Dogen aprender.docx", 
+{  link: "https://docs.google.com/document/d/18IbVrZKkRxzX8aIccD2jVXLPsHLFnoBV1DSE5WsPkwA/edit?usp=sharing", 
 tema: "Sobre el aprender, el 'adentro' y el 'afuera'",
 desc:"de la sabiduria del maestro Dogen"},
 
-{  link: "ToDownload/Meditación caminando.docx", 
+{  link: "https://docs.google.com/document/d/19EMhaFgVSn5hvwR2ojiobp-XTeXoSdw5CloasF9Dz2c/edit?usp=sharing", 
 tema: "Meditacion al Caminar - meditacion formal",
 desc:""},
 
-{  link: "ToDownload/Recomendaciones.docx", 
-tema: "Recomendaciones basicas para la meditacion",
+{  link: "", 
+tema: "https://docs.google.com/document/d/1SRDpyHrD9O3SGXA7hzyRBimjHsNwl4gq2EDwpnc6caE/edit?usp=sharing",
 desc:""},
 
-{  link: "ToDownload/Scaneo Corporal.docx", 
+{  link: "https://docs.google.com/document/d/1ytnPyzecER3PNTSB6-NBePtbiesGOes_x6E3vijTh88/edit?usp=sharing", 
 tema: "Scaneo Corporal - meditacion formal",
 desc:""},
 
-{  link: "#ToDownload/Scaneo Corporal basico.docx", 
+{  link: "https://docs.google.com/document/d/1QmsRJl_tikIpDQS_cc5RoUyumzbCbpvDl27DXcIoQ9s/edit?usp=sharing", 
 tema: "Scaneo Corporal basico- meditacion formal TEST #",
 desc:"se trata de un mapeo corporal simplificado"},
 { link:"https://docs.google.com/document/d/1SRDpyHrD9O3SGXA7hzyRBimjHsNwl4gq2EDwpnc6caE/edit?usp=sharing" ,

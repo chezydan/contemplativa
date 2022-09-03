@@ -1,8 +1,5 @@
 export const quotesData=[
-    {quote: 'suruonoajlalslsd  asdfdf    '
-, author: 'DDDDD'},
-{quote: 'sursd  asdfdf    '
-, author: 'DDDDD'},
+   
 
 
 
@@ -13,7 +10,7 @@ export const quotesData=[
 author: 'Blaise Pascal'} ,
 
 {quote: 'Lo posible precede a lo apropiado',
-author: 'Abraham Isaac Kook'} ,
+author: 'Abraham Isaac Kuk'} ,
 
 {quote:'El ser humano es una casa de huéspedes. \n \
 Cada mañana un nuevo recién llegado. \n  \
@@ -59,6 +56,17 @@ daremos lo no venido. \n\
 por pasado. ',
 author: 'Jorge Manrique'} ,
 
+{quote: ' Un viejo estanque  \nse zambulle una rana \nruido de agua.',
+author: 'Matsuo Basho'},
+
+{quote: 'Una gota de rocío sobre una brizna de hierba \n\
+esperando el primer rayo de sol.\n\
+¡Qué breve es su vida!\n\
+Viento de otoño: ¡no soples demasiado fuerte sobre la llanura! ',
+author: 'Maestro Dogen'},
+
+{quote: 'Cierra los ojos y ve',
+author: 'James Joyce'},
 ]
 
 /* 
