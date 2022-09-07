@@ -27,10 +27,8 @@ tema: "Scaneo Corporal - meditacion formal",
 desc:""},
 
 {  link: "https://docs.google.com/document/d/1QmsRJl_tikIpDQS_cc5RoUyumzbCbpvDl27DXcIoQ9s/edit?usp=sharing", 
-tema: "Scaneo Corporal basico- meditacion formal TEST #",
+tema: "Scaneo Corporal basico- meditacion formal",
 desc:"se trata de un mapeo corporal simplificado"},
-{ link:"https://docs.google.com/document/d/1SRDpyHrD9O3SGXA7hzyRBimjHsNwl4gq2EDwpnc6caE/edit?usp=sharing" ,
-tema:'test from drive' ,desc:"" },
 
 
 ]

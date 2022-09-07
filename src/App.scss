@@ -68,7 +68,8 @@ height:100%;
     margin-left:auto;
 
   }
-  nav{
+  --nav{
+    overflow:visible;
     background-color: #22FF88;
     display:flex;
     position: fixed;
@@ -586,4 +587,10 @@ font-style:bold}
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.tooltiptext{
+  visibility: hidden;
+
+
 }

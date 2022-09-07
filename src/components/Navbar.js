@@ -9,9 +9,10 @@ function Navbar() {
         <Link to ="/resources" >   recursos</Link>
         <Link to ="/contact" >   contactar</Link>
 
-< Link to='/quotes'  > generador aleatorio de frases</Link>
+< Link to='/quotes'  > frases </Link>
     </nav>
   )
 }
 
 export default Navbar
+  
