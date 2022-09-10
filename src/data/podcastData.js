@@ -143,6 +143,17 @@ Esta práctica nos reubica y nos ayuda a anclarnos o reanclarnos en el proceso d
     cuál es el camino para involucrarse hacia el cambio-"  ,
      temas: "presente" },
 
+
+     { id :19, 
+      title :"El presente muerto o la maestría de vivirlo", 
+      link :"" ,
+      desc : "Nuestra manera común  de vivir el presente es precisamente no vivirlo.\
+      Desdeñando la importancia, distorsionando la experiencia directa estamos ansiosos por que momentos pasen porque la mayoría tienen una jerarquía inferior frente a otros.\
+      Una visión ecuánime de todo momento implica que no hay tal jerarquía y que ningún momento es un medio para otro, entonces 'bajamos a tierra' y empezamos a vivir el presente.\
+      Nuestro modo cotidiano de enfocar la experiencia presente es sofocándola viéndola como medio como recurso para otro momento y no en sí. Es decir estamos literalmente matando el tiempo.\
+      La tradición contemplativa tiene otra propuesta para nosotros..."  ,
+       temas: "presente aceptación" },
+
 ]
 
 

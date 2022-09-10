@@ -462,6 +462,11 @@ font-style:bold}
   font-size:1.8em;
   margin-right:0.3em;
 }
+p-faBig{
+  float:left;
+  font-size:3.8em;
+  margin-right:0.3em;
+}
 .contact{
   padding:2em;
   margin-left:3em;
@@ -593,4 +598,16 @@ font-style:bold}
   visibility: hidden;
 
 
+}
+
+.--img-right{
+  max-height:4rem;
+  float:left;
+  padding-right:1em
+
+}
+
+.nav-link{
+  text-decoration: none;
+  color:green;
 }
