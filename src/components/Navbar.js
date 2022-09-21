@@ -10,6 +10,7 @@ function Navbar() {
         <Link to ="/contact" className='nav-link'>   contactar</Link>
 
 < Link to='/quotes' className='nav-link' > frases </Link>
+
     </nav>
   )
 }

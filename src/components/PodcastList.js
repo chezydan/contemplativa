@@ -9,7 +9,7 @@ function PodcastList() {
     
 
 
-return (    <div>
+return (    <div className='hero-image'>
         <SearchPodcast propTargetText={targetText} 
         handleSearch={setTargetText}/>
         <div className='allPodcasts'>

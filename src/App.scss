@@ -8,6 +8,13 @@
 }
 
 
+/* Reset rule */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body{
   font-family:  "Poppins", sans-serif;
   //height:100%;
@@ -401,13 +408,17 @@ select{
   margin-left:auto;
   margin-right:auto;
   
-  font-size:1.7em;
+  font-size:1.4em;
   padding:0.5rem;
   white-space: pre-line;
- //font-style:italic;
-  font-family:cursive;
+ font-style:italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.quote-large{
+  font-size:1.1em;
+  color:puple;
+}
 .btn-quote{
   border-radius: 9%;
   display:flex;
@@ -462,7 +473,7 @@ font-style:bold}
   font-size:1.8em;
   margin-right:0.3em;
 }
-p-faBig{
+.p-faBig{
   float:left;
   font-size:3.8em;
   margin-right:0.3em;
@@ -492,6 +503,21 @@ p-faBig{
   position: fixed;
   width: 100%;
   height: 100%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 }
 
 .modalContainer {
@@ -502,12 +528,15 @@ p-faBig{
 //  top: 90px;  left: 50%;
   //transform: translate(-50%, -50%);
   display: flex;
-  background-color: #228844;
-  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.6);
   border-radius: 8px;
   color: wheat;
   padding:3.5em;
-  opacity:85%;
+
+  background-color:rgba(20,130,40,0.7);
+  backdrop-filter: blur(5px);
+
   align-items:center;
   line-height: 3em;
 
@@ -573,15 +602,22 @@ p-faBig{
   /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1661079789124-e149425e8851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=694&q=80");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url("https://images.unsplash.com/photo-1661079789124-e149425e8851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=694&q=80");
   /* Set a specific height */
-  height: 100vh;
+  height: 100vhs;
+  
   width:auto;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat:no-repeat;
-  background-size: cover;
-  position: relative;
+  
+
+ /* Set a specific height */
+ //min-height: 500px;
+
+ /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: repeat;
+ background-size: cover;
 }
 
 /* Place text in the middle of the image */

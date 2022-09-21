@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import ModalHome from '../components/ModalHome'
 import { useState } from 'react'
-import {FaInstagram} from 'react-icons/fa'
+import {FaInstagram, FaSpotify} from 'react-icons/fa'
 
 const Home = () => {
   const [showModal,setShowModal] = useState(true)
@@ -44,10 +44,17 @@ src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Ornate-Dharma-Wheel.svg
  Contenidos sobre presencia, aceptación, sufrimiento y otros temas
 <li>
  Reflexiones sobre la práctica meditativa</li><li> 
- Consejos par la práctica</li><li>
+ Consejos para la práctica</li><li>
  Actualizaciones  sobre la actividad de los grupos de trabajo</li>
  </ul> 
 ... y más en esta página Instagram de Meditación Deconstructiva
+</div>
+<br></br>
+<div>
+<h3>Podcast Ciencia Contemplativa </h3>
+{<FaSpotify className='p-fa'/>}
+<a href="https://open.spotify.com/show/5dKmq9k1aEkFJqcfBGokmD" target='_blank'> Página del Podcast </a>
+
 </div>
 <br></br>
 <br></br>
