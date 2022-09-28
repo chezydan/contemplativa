@@ -9,7 +9,7 @@ const [targetAuthor, setTargetAuthor]=useState(' ')
 const allBooks = books;
 const authors = [" ",... new Set ( allBooks.map(book=>book.author)  ) ].sort()
 
-  return (<>
+  return (<div className='books'>
     <SearchBook authors={(authors)}
     handleTargetAuthor={setTargetAuthor}
     propTargetAuthor={targetAuthor}/>    
@@ -27,7 +27,7 @@ const authors = [" ",... new Set ( allBooks.map(book=>book.author)  ) ].sort()
     </>  )
   } ) }
   </div>
-    </>
+    </div>
   )
 }
 

@@ -12,8 +12,8 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <div>
-      <h4>Ciencia Contemplativa</h4>
+    <div >
+     
       <HashRouter>
         <Routes>
           <Route path="/"  element={<SharedLayout/>} >

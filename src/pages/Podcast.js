@@ -3,7 +3,7 @@ import PodcastList from '../components/PodcastList'
 
 const Podcast = () => {
     return (
-      <section className='section'>
+      <section >
        
       <PodcastList />
       </section>

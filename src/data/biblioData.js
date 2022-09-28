@@ -140,10 +140,39 @@ export const books=[
     ,
                                  temas: "conciencia  atención neurodinámica" ,
                                 lang: "castellano  trad de 'Consciousness and the Brain' "},                          
-] 
+           { id :14, 
+                                    title :"La práctica de la atención plena", 
+                                    author:"Jon Kabbat-Zinn",
+                                    url :"https://www.amazon.es/PR%C3%81CTICA-ATENCI%C3%93N-PLENA-Jon-Kabat-Zinn-ebook/dp/B006GA4YGE/ref=sr_1_3?qid=1663921907&refinements=p_27%3AJon+Kabat-Zinn&s=books&sr=1-3" ,
+                                    img:'',
+                                    desc : "Jon Kabbat-Zinn desarrolla el tema de la mindfulness. además de sus cualidades\
+                                    enfatiza el cómo transformarse a través de  el vivir en el presente, sosteniendo que la atención plena\
+                                    es una necesidad y una prioridad en nuestras vidas."
+ ,
+                                     temas: "mindfulness" ,
+                                    lang: "castellano"},
+               { id :15, 
+                             title :"Mindfulness en la vida cotidiana: Donde quiera que vayas, ahí estás ", 
+                      author:"Jon Kabbat-Zinn",
+                      url :"https://www.amazon.es/Mindfulness-vida-cotidiana-quiera-Divulgaci%C3%B3n/dp/8449338972/ref=sr_1_4?qid=1663921907&refinements=p_27%3AJon+Kabat-Zinn&s=books&sr=1-4" ,
+                        img:'',
+                   desc:"Un clásico de Jon Kabbat-Zinn que trata la inmediatez de la atención plena en la vida cotidiana.\
+                       Todo lo relativo a lo que llamamos meditación informal, el despertarce contínuamente en los momentos\
+                       de nuestra vida en el contacto con lo cotidiano  , si dejar de lado los aspectos formales de la meditación",
+                    temas: "mindfulness meditacíon" ,
+                   lang: "castellano trad de 'Wherever you go, there you are'"},
+                   { id :16, 
+                    title :"Vivir con plenitud las crisis", 
+                    author:"Jon Kabbat-Zinn",
+                    url :"https://www.amazon.es/VIVIR-PLENITUD-LAS-CRISIS-Kabat-Zinn-ebook/dp/B01FDFOI7W/ref=sr_1_1?qid=1663923220&refinements=p_27%3AJon+Kabat-Zinn&s=books&sr=1-1" ,
+                    img:'',
+                    desc : "Cuando el estrés golpea en la puerta, hay lugar para la atención plena en esta circunstancia."  ,
+                     temas: "mindfulness estrés" ,
+                    lang: "castellano trad de 'Full Catastrophe Living'"},
 
+                    { id:"xYvrNgJqP8Yop7AJt0Ii",title:"Mindfulness en la vida cotidiana: Donde quiera que vayas, ahí estás ",author:"Jon Kabbat Zinn",desc:"test descripcion", temas:"",lang:""}
 
-
+                   ]
 
 /*   { id :, 
 title :"", 
