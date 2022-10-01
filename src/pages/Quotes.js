@@ -9,8 +9,7 @@ function Quotes() {
  
  return (<div className='section  hero-image-white-door quotes-general'>
  <h2> Generador aleatorio de frases y citas </h2>
-<br></br>
-<p>פתרונות הדרכה והשערה</p>
+
 <p className='rtl'>זה אתר שמיועד לתת פתרונות להדריךת , לספק כלים לומד</p>
 
 

@@ -1,6 +1,7 @@
 import { HashRouter, Routes, Route} from 'react-router-dom'
 import "./App.scss";
 import SharedLayout from './components/SharedLayout';
+import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Podcast from './pages/Podcast'
 import Resources from './pages/Resources'
@@ -15,8 +16,9 @@ function App() {
     <div >
      
       <HashRouter>
+        <Navbar />
         <Routes>
-          <Route path="/"  element={<SharedLayout/>} >
+         
               <Route index            element={<Home/>} />
               <Route path ='podcast'  element= {<Podcast/>}  />
               <Route path='resources' element={<Resources/>} / >
@@ -26,7 +28,7 @@ function App() {
                 <Route path='timer' element={<Timer />} />
            <Route path='quotes' element={<Quotes />} />
            <Route path='contact' element ={<Contact/>}  />
-          </Route>
+         
            
 
 

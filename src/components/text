@@ -1,11 +1,51 @@
 
 
 
-
-
-{quote:'No percibimos según como las cosas son sino según como somos´   ,
- author:"Anaïs Nin"},]
+former routes
 
 
 
-https://images.unsplash.com/photo-1524230572899-a752b3835840?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80
+
+
+import { HashRouter, Routes, Route} from 'react-router-dom'
+import "./App.scss";
+import SharedLayout from './components/SharedLayout';
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import Podcast from './pages/Podcast'
+import Resources from './pages/Resources'
+import Downloads from './pages/Downloads'
+import Books from './pages/Books';
+import Timer from './pages/Timer'
+import Quotes from './pages/Quotes'
+import Contact from './pages/Contact'
+
+function App() {
+  return (
+    <div >
+     
+      <HashRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/"  element={<Home/>} >
+              <Route index            element={<Home/>} />
+              <Route path ='podcast'  element= {<Podcast/>}  />
+              <Route path='resources' element={<Resources/>} / >
+            
+                <Route path='downloads' element={<Downloads />} />
+                <Route path='books' element={<Books />} />
+                <Route path='timer' element={<Timer />} />
+           <Route path='quotes' element={<Quotes />} />
+           <Route path='contact' element ={<Contact/>}  />
+          </Route>
+           
+
+
+        </Routes>
+      </HashRouter>
+
+    </div>
+  );
+}
+
+export default App;
