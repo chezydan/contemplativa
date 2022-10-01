@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/contemplativa/static/css/main.8fd58759.css",
-    "main.js": "/contemplativa/static/js/main.113307d6.js",
+    "main.js": "/contemplativa/static/js/main.dc128cb2.js",
     "index.html": "/contemplativa/index.html",
     "main.8fd58759.css.map": "/contemplativa/static/css/main.8fd58759.css.map",
-    "main.113307d6.js.map": "/contemplativa/static/js/main.113307d6.js.map"
+    "main.dc128cb2.js.map": "/contemplativa/static/js/main.dc128cb2.js.map"
   },
   "entrypoints": [
     "static/css/main.8fd58759.css",
-    "static/js/main.113307d6.js"
+    "static/js/main.dc128cb2.js"
   ]
 }
