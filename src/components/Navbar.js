@@ -36,7 +36,7 @@ function Navbar() {
       {extendNavbar && (
       <div className='extended-container'
       onClick={()=>{ setExtendNavbar((cur)=>!cur)   } } >        
-      <Link to ="/" className='nav-link'>   principal</Link>
+      <Link to ="/" className='link-extended-container'>   principal</Link>
                 <Link to ="/podcast" className='link-extended-container'>   podcast</Link>
                 <Link to ="/resources" className='link-extended-container'>   recursos</Link>
                 < Link to='/quotes' className='link-extended-container' > frases </Link>

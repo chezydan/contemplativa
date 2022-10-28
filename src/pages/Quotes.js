@@ -10,7 +10,7 @@ function Quotes() {
  return (<div className='section  hero-image-white-door quotes-general'>
  <h2> Generador aleatorio de frases y citas </h2>
 
-<p className='rtl'>זה אתר שמיועד לתת פתרונות להדריךת , לספק כלים לומד</p>
+
 
 
 <p>  <FaLightbulb className='p-fa' /> Al pulsar se puede extraer una frase para pensar y aplicar sobre las temáticas

@@ -153,7 +153,29 @@ Esta práctica nos reubica y nos ayuda a anclarnos o reanclarnos en el proceso d
       Nuestro modo cotidiano de enfocar la experiencia presente es sofocándola viéndola como medio como recurso para otro momento y no en sí. Es decir estamos literalmente matando el tiempo.\
       La tradición contemplativa tiene otra propuesta para nosotros..."  ,
        temas: "presente aceptación" },
+       { id :20, 
+        title :"Presente actitud, intención y consecuencia", 
+        img:"https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/23229132/23229132-1665427051308-15ab22f62e16b.jpg",
+        link :"https://open.spotify.com/episode/7KKpOFFv7e59598HsOKSgy" ,
+        desc : "Tal es la importancia del presente en realidad que todo lo que ha pasado o se proyecta al futuro  tiene manifestación en el presente cuando aparece ante nosotros en pensamientos. Y es así como en la tradición solo el presente cobra importancia y requiere nuestra maestría de ese 'de momento a momento´. ,\
+            El cuerpo esta en presente y no nos puede fabular, mentir o imaginar, y nuestro aprendizaje de momento a momento pasará por ese tránsito.\
+        Y en este presente se aplica el ver que hay con curiosidad y apertura y no buscar algo en particular. Lo tendemos a descartar porque nuestro pensamiento busca algún tipo de ganancia con contrafactuales o proyecciones temporales.\
+      presente, ser testigos.",
 
+         temas: "presente" },
+        
+         { id :21, 
+          title :"Comparar las distintas sensaciones de la respiración, conectandose a la meditación y acercándose a las sensaciones puras", 
+          link :"https://open.spotify.com/episode/35nqK8JyS1vNokm42jfFtz" ,
+          img:"https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/23229132/23229132-1665436731767-37d608711fb7f.jpg",
+          desc : "En otra nota metodológica, un episodio que nos explica cómo usar comparaciones de los aspectos materiales de las sensaciones de la respiración.\
+          Este tipo de comparación favorece la atención presente y la concentración, ocupando la mente, focalizando y discerniendo entre aquellos aspectos de la realidad y nuestros conceptos e ideas sobre ellos.\
+          Se hara la distinción entre una comparación valorativa que nos arrastra hacia nuestra mente categorizadora y al modo de funcionamiento por defecto y una comparación de los substratos materiales de la experiencia. Esta última favorece el desarrollo del nuestro sistema vivencial y  lo realiza en cada momento.\
+           La práctica en este episodio consistirá en una demostración y una aplícación de este método.          "  ,
+           temas: "práctica método sensaciones" },
+          
+            
+             
 ]
 
 

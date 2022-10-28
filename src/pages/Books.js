@@ -9,7 +9,7 @@ const [targetAuthor, setTargetAuthor]=useState(' ')
 const allBooks = books;
 const authors = [" ",... new Set ( allBooks.map(book=>book.author)  ) ].sort()
 
-  return (<div className='books'>
+  return (<div className='books gradient1'>
     <SearchBook authors={(authors)}
     handleTargetAuthor={setTargetAuthor}
     propTargetAuthor={targetAuthor}/>    

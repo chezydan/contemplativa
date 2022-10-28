@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-* {
+*,
+*::before,
+*::after
+ {
+  box-sizing: border-box;
   margin: 0;
 //  padding: 2.2;
   box-sizing: border-box;
@@ -22,6 +26,27 @@ body{
  
 
 }
+
+.gradient1{
+  background: #283c86;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color:wheat;
+}
+
+.gradient1 p{
+  color: wheat;
+}
+.gr1-color{
+  color:wheat;
+}
+
+.gradient *{
+  color:white;
+}
+
+
 
 .App {
     text-align: center;
@@ -84,10 +109,11 @@ body{
       color:whitesmoke;
     }
 .section{
-  position:initial;
+ position:initial;
  padding:1em;
  // margin-top:50px;
-  margin-bottom:0px;
+ margin-bottom:0px;
+ height:100vh;
 }
   span{
     display:flex;
@@ -102,10 +128,11 @@ body{
   
 
   .--nav{
-   // overflow:visible;
+    overflow:visible;
+    position:sticky;
     background-color: rgb(9, 51, 14);
   //  display:block;
-   // position: fixed;
+  
    
     top: 0px;
 //    width: 100%;
@@ -117,6 +144,8 @@ body{
 //    background-color:black;
     display:flex;
     flex-direction:column;    
+
+
 
   
   
@@ -171,6 +200,7 @@ opacity:0.72;
       color:white;
       font-size:0.7em;
       animation: 5s  right-text ;
+      animation-delay: 5s;
     }
     
 @keyframes right-text {
@@ -338,7 +368,10 @@ font-weight:bolder  ;
 
 
 .books{
-  margin-top:50px;
+  margin-top:0px;
+ // height:auto;
+  margin-bottom: 0;
+  height:100vh;
 }
 
 
@@ -353,20 +386,23 @@ font-weight:bolder  ;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
    //as many columns as far as they are 250px at least
 //  grid-template-rows: repeat(3, 1fr);
-margin-bottom:1.5em;
+//margin-bottom:1.5em;
 }
 
  .book{
    background-color: #779944;
   border-radius: 4%;
   padding:0.5em;
+ 
   
  }
  .book a{
-    color :green
+    color :yellow;
  }
  .book .temas{
-  color : darkgreen;
+  color : black;
+  font-weight: 1300;
+ 
  }
 
 /*.book-title{
@@ -519,6 +555,7 @@ justify-items: center;
 .link-res{
   font-size: min(1.15em);
   margin-top: 0.8em;  
+ 
   //font-size: 2.3vmin;
   
 }
@@ -549,6 +586,9 @@ select{
   margin-right:auto;
   border-radius:5%;
   width: 90%;
+  height:auto;
+  
+ 
   
  // background-color: yellowgreen;
 }
@@ -613,7 +653,7 @@ font-style:bold}
 
 .quotes-general{
   padding:0.5em;
-height:100vh;  
+min-height:100vh;  
 
 }
 .quotes-general p{

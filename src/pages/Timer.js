@@ -57,7 +57,7 @@ function TimerSet({num}){
   const hoverInput="clickear para editar el cronómetro"
 
 
-  return (<div>
+  return (<div >
     <h3> Cronómetro para meditación   <FaHourglass/> </h3>
 
     <div className='timer-container'>
