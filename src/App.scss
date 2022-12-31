@@ -111,8 +111,7 @@ background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, F
     }
 .section{
  position:initial;
- padding:1em;
- // margin-top:50px;
+  // margin-top:50px;
  margin-bottom:0px;
  height:100vh;
 }
@@ -315,7 +314,7 @@ font-weight:bolder  ;
  .cart--podcast img{
   width: 150px;
   float:right;
-  opacity:0.5;
+  opacity:0.4;
   border-radius:8%;
  }
  .readmore{
@@ -369,7 +368,9 @@ font-weight:bolder  ;
    // border-color: black;
  }
  .allPodcasts{
-  margin-left:zem;
+  margin-left:auto;
+  margin-right:auto;
+  
  }
 
 
@@ -377,8 +378,10 @@ font-weight:bolder  ;
 .books{
   margin-top:0px;
  // height:auto;
-  margin-bottom: 0;
-  height:100vh;
+  padding-bottom: 40px;
+  overflow: floor;
+  
+
 }
 
 
@@ -594,6 +597,8 @@ select{
   border-radius:5%;
   width: 90%;
   height:auto;
+  overflow: floor;
+
   
  
   
@@ -822,7 +827,7 @@ background-size:auto;
   url("https://images.unsplash.com/photo-1524230572899-a752b3835840?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80");
   /* Set a specific height */
 
-height:100vh;
+  height:30000px;
   //position:static;
 //background-size:auto;
  /* Create the parallax scrolling effect */
@@ -831,6 +836,7 @@ height:100vh;
  background-repeat: repeat;
  background-size: cover;
 //background-size:100%,100%;
+
 
 
 }

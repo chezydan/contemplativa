@@ -194,7 +194,25 @@ img:"https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/p
            La práctica en este episodio consistirá en una demostración y una aplícación de este método.          "  ,
            temas: "práctica método sensaciones" },
           
-            
+           { id :22, 
+            title :"Percepcion de la Impermanencia", 
+            link :"https://open.spotify.com/episode/4NYHrZpa9aE87xSnwnMTnn" ,
+            desc : "La impermanencia es una de las tres caracteristicas de la realidad que percibimos en forma erronea.\
+            En este episodio describiremos \
+            cuáles son las consecuencias de una percepción fija de la realidad, y cómo la impermanencia esta aqui y ahora pero nos pasa por debajo del radar.\           En la práctica meditativa veremos cómo se puede percibir la impermanencia en nuestro abordaje de las sensaciones en su materialidad.\                       En el episodio de explica el principio de percepción de la impermanencia como característica de la realidad como habilidad que es facilitadora de capacidad, vehiculizante hacia una actitud moderada, estable en torno a principios y menos supeditada a apegos y a una visión ilusoria , de autoengaño de la realidad y de nuestra autopercepción.\
+            "  ,
+            img:"https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/23229132/23229132-1665436993829-41e5eab7dbe87.jpg" ,
+             temas: "impermanencia presente" },
+             { id :23, 
+              title :"Navegando nuestra incapacidad de percibir la impermanencia", 
+              link :"https://open.spotify.com/episode/7reeK58ksWaTHuEVAUicCJ" ,
+              desc : "La impermanencia es una de las tres características de la realidad y como tal debe ser percibida.\
+              En el episodio recapitulamos el principio por el cual la manera de percibir o no percibir la impermanencia repercute en nuestra actitud o experiencia mental, por lo cual el esfuerzo que hagamos en percibirla transformara esta experiencia subjetiva.\
+               La impermanencia como parte de la intención pura con la cual uno se dirige a la meditación-\
+                Se incluye un ciclo meditativo con especial atención a los cambios en las sensaciones.\                           Para comprender el tema de la impermanencia experimentaremos, a través de una exploración en nosotros mismos la dificultad de nuestra forma de percibir  no entrenada en percatarse de los aspectos de impermanencia como invitación a poner la impermanencia en nuestro orden del día."  ,
+              img:"https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/23229132/23229132-1665436058072-8cb52a8850077.jpg" ,
+               temas: "impermanencia" },
+           
              
 ]
 
