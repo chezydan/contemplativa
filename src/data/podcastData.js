@@ -221,8 +221,18 @@ En este camino nos damos cuenta que pobre y limitada es nuestra capacidad de per
 Nos damos cuenta como esta percepción de fijeza debe ser tratada a través del trabajo de la meditación para llegar a esa agudeza y esa percepción hacia una mayor sutileza, todo en el plano vivencial, un proceso paulatino  por medio de la práctica rutinaria.\
 "  ,
 img:"https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/23229132/23229132-1665437991268-ef949a88b5edb.jpg" ,
- temas: "impermanencia meditaבción" },
-             
+ temas: "impermanencia meditación" },
+ 
+ { id :25, 
+  title :"(No) tengo tiempo para meditar", 
+  link :"https://open.spotify.com/episode/4uVUNA0P4LwagKSohBT1DQ" ,
+  desc : "En más de un momento hemos sentido que no tenemos tiempo para meditar. \
+  La sesión personal de meditación nos aparece como algo más para hacer, algo que no tenemos ganas de hacer y no estamos lejos de emitir evaluaciones y juicios sobre el sentarse a meditar.\
+    Estas sensaciones son totalmente normales.  Como toda experiencia de aprendizaje y entrenamiento sentimos una resistencia básica a estar en el lugar de ponernos a realizar cierto esfuerzo de aprender y adoptar una rutina.\
+    Sumado a esto debemos tener en cuenta que la meditación de observación pura no trae gratificación inmediata ni tiene por objetivo ser una experiencia agradable.\
+    En este episodio se podrán escuchar las razones de porqué nos cuesta tanto establecer una rutina y sobre la importancia y la necesidad de que el habito de meditar sea incondicional e independiente de la circunstancias y el estado de ánimo."  ,
+  img:"https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/23229132/23229132-1665437250575-692d0f9bc25c7.jpg" ,
+   temas: "tiempo  meditación" },
 ]
 
 

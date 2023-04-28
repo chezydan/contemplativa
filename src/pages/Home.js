@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 import ModalHome from '../components/ModalHome'
 import { useState } from 'react'
-import {FaInstagram, FaSpotify} from 'react-icons/fa'
+import {FaInstagram, FaSpotify, FaYoutube } from 'react-icons/fa'
 
 const Home = () => {
   const [showModal,setShowModal] = useState(true)
@@ -55,6 +55,12 @@ src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Ornate-Dharma-Wheel.svg
 {<FaSpotify className='p-fa'/>}
 <a href="https://open.spotify.com/show/5dKmq9k1aEkFJqcfBGokmD" target='_blank'> Página del Podcast </a>
 
+<br></br>
+<br></br>
+
+<h3> Ciencia Contemplativa en youtube </h3>
+{<FaYoutube className='p-fa'/>}
+<a href ="https://www.youtube.com/watch?v=qzZuBRr4UgI&list=PLqxzxnXXQWGpJNbErMsbJK9raYlThccZa" >playlist de youtube </a>
 </div>
 <br></br>
 <br></br>
