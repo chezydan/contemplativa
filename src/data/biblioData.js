@@ -161,6 +161,7 @@ export const books=[
                        de nuestra vida en el contacto con lo cotidiano  , si dejar de lado los aspectos formales de la meditación",
                     temas: "mindfulness meditacíon" ,
                    lang: "castellano trad de 'Wherever you go, there you are'"},
+
                    { id :16, 
                     title :"Vivir con plenitud las crisis", 
                     author:"Jon Kabbat-Zinn",
@@ -170,9 +171,21 @@ export const books=[
                      temas: "mindfulness estrés" ,
                     lang: "castellano trad de 'Full Catastrophe Living'"},
 
-                    { id:"xYvrNgJqP8Yop7AJt0Ii",title:"Mindfulness en la vida cotidiana: Donde quiera que vayas, ahí estás ",author:"Jon Kabbat Zinn",desc:"test descripcion", temas:"",lang:""}
+                    
+                    { id :17, 
+                        title :"La Trampa de la Felicidad", 
+                        author:"Russ Harris",
+                        url :"https://www.planetadelibros.com/libro-la-trampa-de-la-felicidad/355356" ,
+                        img:'',
+                        desc : "Cuando la felicidad no es necesariamente el objetivo y esa idea nos lleva justamente a una trampa. \
+                        Russ Harris desarrolla el tema en desde la perspectiva de la TAC",  
+                         temas: "" ,
+                        lang: "castellano, trad de 'The Happiness Trap"}
+                        
 
                    ]
+
+                
 
 /*   { id :, 
 title :"", 

@@ -212,7 +212,16 @@ img:"https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/p
                 Se incluye un ciclo meditativo con especial atención a los cambios en las sensaciones.\                           Para comprender el tema de la impermanencia experimentaremos, a través de una exploración en nosotros mismos la dificultad de nuestra forma de percibir  no entrenada en percatarse de los aspectos de impermanencia como invitación a poner la impermanencia en nuestro orden del día."  ,
               img:"https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/23229132/23229132-1665436058072-8cb52a8850077.jpg" ,
                temas: "impermanencia" },
-           
+            { id :24, 
+title :"Las implicaciones de la Impermanencia en la percepcion de la realidad", 
+link :"https://open.spotify.com/episode/6OvsgoetIeOZMkCeMDPfzy" ,
+desc : "La transitoriedad, la impermanencia son características propias de la realidad que nuestra capacidad limintada no nos permite percibir.\
+La meditación de observacion pura nos muestra que la impermanencia debe estar en nuestra agenda de trabajo. 'aprender la impermanencia' como pauta que nos acompaña. \
+En este camino nos damos cuenta que pobre y limitada es nuestra capacidad de percibirla, qué poco sutiles somos al momento de percibir la impermanencia. A su vez pasamos a percatarnos de cómo esta falta de agudez nos lleva a un estado de poca claridad y a una sensación de inestabilidad.\
+Nos damos cuenta como esta percepción de fijeza debe ser tratada a través del trabajo de la meditación para llegar a esa agudeza y esa percepción hacia una mayor sutileza, todo en el plano vivencial, un proceso paulatino  por medio de la práctica rutinaria.\
+"  ,
+img:"https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_episode400/23229132/23229132-1665437991268-ef949a88b5edb.jpg" ,
+ temas: "impermanencia meditaבción" },
              
 ]
 
